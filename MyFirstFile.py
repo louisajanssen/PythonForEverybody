@@ -15,3 +15,6 @@ while n > 0:
     n = n-1
 print('Blastoff!')
 #Loops have iteration variables that change each time through a loop
+
+#== equal to -> = assignment
+#!= not equal
