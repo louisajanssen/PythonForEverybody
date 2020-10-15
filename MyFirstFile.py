@@ -36,3 +36,13 @@ elif s < .6:
 else:
 	x ="Out of Range"
 print (x)
+
+#Functions
+def thing():
+	print('Hello')
+	print('Fun')
+
+thing()
+print('Zip')
+thing()
+#We call these reuasable pieces of code functions
