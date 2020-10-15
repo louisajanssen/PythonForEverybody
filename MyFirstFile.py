@@ -37,7 +37,7 @@ else:
 	x ="Out of Range"
 print (x)
 
-#Functions
+# Functions
 def thing():
 	print('Hello')
 	print('Fun')
@@ -45,4 +45,24 @@ def thing():
 thing()
 print('Zip')
 thing()
-#We call these reuasable pieces of code functions
+# We call these reuasable pieces of code functions
+# You can use int() and float() to convert between strings and integers
+
+x = 5
+print('Hello')
+
+def print_lyrics():
+	print("I'm a lumberjack, and I'm okay.")
+	print('I sleep all night and I work all day'.)
+
+print('Yo')
+print_lyrics() #invoke the function
+x = x + 2
+print(x)
+
+# Return value
+def greet():
+	return "Hello"
+
+print(greet()), "Glenn")
+print(greet()), "Sally")
