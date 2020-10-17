@@ -81,3 +81,11 @@ rate = raw_input("Enter rate:")
 r = float(rate)
 p = computepay(h,r)
 print("Pay",p)
+
+# Break stataement
+while True:
+	line = input('> ')
+	if line == 'done' :
+		break 
+	print(line)
+print('Done!')
